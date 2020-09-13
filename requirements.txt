@@ -1,0 +1,7 @@
+torch
+PIL
+wget
+wandb
+torchvision
+numpy
+ptflops
