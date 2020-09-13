@@ -35,12 +35,3 @@ def ResidualNet(depth, num_classes=1000):
         model = cifar.resnet1202(num_classes)
 
     return model
-
-
-# %%
-import torch
-
-model = ResidualNet(18, 200)
-x = torch.rand(1, 3, 32, 32)
-y = model(x)
-print(f"Output: {y.shape}")
