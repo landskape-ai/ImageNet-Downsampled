@@ -14,6 +14,8 @@ CIFAR ResNets: `python train.py data --dataset SmallImageNet --size 32 --classes
 
 ImageNet ResNets: `python train.py data --dataset SmallImageNet --size 32 --classes 1000 --depth 18 --ngpu 1 --epochs 100 -b 256 --lr 0.1 --momentum 0.9 --wd 1e-4 --prefix test --project Imagenet`
 
+`classes` can be changed to select a subset of the dataset. `size` is the resolution of the dataset.
+
 ### Tiny-ImageNet
 [Tiny ImageNet Visual Recognition Challenge](https://tiny-imagenet.herokuapp.com)
 
