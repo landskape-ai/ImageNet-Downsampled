@@ -15,7 +15,7 @@ def bar_progress(current, total, width=80):
 def download_smallimagenet(resolution, down_dir):
     os.makedirs(down_dir, exist_ok=True)
     file_name = "Imagenet{}_{}.zip"
-    base_url = "http://www.image-net.org/image/downsample/{}"
+    base_url = "http://www.image-net.org/data/downsample/{}"
     for t in ["train", "val"]:
         print(f"\nDownloading Small-ImageNet-{resolution} {t} set...")
         f_name = file_name.format(resolution, t)
